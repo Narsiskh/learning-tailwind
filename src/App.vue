@@ -13,13 +13,14 @@
       <p>Hello long sentence</p>
       <p>Another long sentence</p>
     </div>
+    <br>
     <div>
-      <h1>Title 1</h1>
-      <h2>Title 2</h2>
-      <h3>Title 3</h3>
-      <p>A regular paragraph</p>
-      <p>A description paragraph</p>
-      <p class="note">A little note</p>
+      <h1 class="text-3xl">Title 1</h1>
+      <h2 class="text-2xl line-through">Title 2</h2>
+      <h3 class="text-xl overline">Title 3</h3>
+      <p class="text-base italic underline decoration-red-500 decoration-wavy decoration-1 underline-offset-8 leading-normal">A regular paragraph</p>
+      <p class="text-sm">A description paragraph</p>
+      <p class="text-xs note">A little note</p>
     </div>
   </main>
 </template>

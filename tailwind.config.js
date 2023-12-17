@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from "tailwindcss/defaultTheme.js";
 export default {
   content: [],
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    fontSize: {
+      xs: '12px',
+      sm: '15px',
+      base: '18px'
+    },
     screens: {
       sm: '480px',
       md: '768px', // @media (min-width: 768px)
